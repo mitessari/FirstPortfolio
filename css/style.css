@@ -1,23 +1,104 @@
-* {
-  box-sizing: border-box;
+
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  margin: 0px 5%;
+  padding: 10px;
 }
+#navBar h1 {
+  width: 25%;
+  font-weight: 500; }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration-line:underline;
+  }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  
+  font-family: 'Poppins', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.container {
+  display: grid;
+  grid-template-columns: 25% 75%;
 }
 
-p {
-  margin: 0;
+
+.hero-banner {
+ text-align: right;
+  background-image: url(../images/02-hero-bg.jpg);
+  padding: 80px;
 }
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "Surf Surf "
+  "puzzel run"
+  "cal ledwall" ;
+}
+
+  #Surf {
+    grid-area: Surf;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  #ledwall {
+    grid-area: led wall;
+    background-image: url("../images/02-portfolio-1.jpg");
+  }
+  
+  #cal {
+    grid-area: Calculator;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #puzzel {
+    grid-area: Past Puzzel;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #run {
+    grid-area: run buddy;
+    background-image: url("../images/02-run-buddy.jpg");
+  }
+  
+  .categoryGridArea {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+  
+  .heading {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;
+  }
+  
+  #contact {
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: black;
+  }
+  
+ 
+
+
