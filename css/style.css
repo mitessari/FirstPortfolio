@@ -11,12 +11,25 @@ header {
 
  h1 {
  font-size: 200%;
+ margin-left: 100px;
 }
-
+/* Navagation CSS */
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  
+}
+.profile-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-left: -740px;
+/* 
+  padding-right: 65px;
+  width: 200px; */
 }
 
 nav a {
@@ -50,6 +63,8 @@ body {
   background-color: antiquewhite;
   padding: 80px;
 }
+
+/* Category Grid CSS */
 
 #categoryGrid {
   margin: 0px 5%;
