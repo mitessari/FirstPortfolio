@@ -27,9 +27,7 @@ nav ul {
   overflow: hidden;
   margin-top: -6px;
   margin-left: -740px;
-/* 
-  padding-right: 65px;
-  width: 200px; */
+
 }
 
 nav a {
@@ -57,11 +55,35 @@ body {
   grid-template-columns: 25% 75%;
 }
 
+/* Hero CSS */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
 
-.hero-banner {
- text-align: right;
-  background-color: antiquewhite;
-  padding: 80px;
+.hero img {
+  height: 400px;
+  width: 490px;
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px black
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
 }
 
 /* Category Grid CSS */
