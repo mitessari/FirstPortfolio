@@ -169,26 +169,65 @@ background-color: #00D9FF;
   margin: 10px;
 }
 
-/* Category Grid CSS */
+/* Contact me */
+.contact-title {
+text-align: center;
+font-size: 30px;
+margin: 100px;
+color:#FFE966;
+
+}
+.contact-me {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%);
+  background-position: center;
+  background-color:#1297B3;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 180px;
+  margin-top: 5px !important;
+
+}
+
+.card {
+  border-radius: 10px;
+  background-color:#1297B3;
+  box-shadow: 0 3px 10px black;
+  
+}
+
+.card-body {
+  text-align: center;
+  color:#FFE966;
+}
+
+/* Icons */
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Footer */
 
 
-  /*
-  .heading {
-    background-color: rgba(0,0,0,0.7);
-    padding: 15px;
-    height: 25px;
-    color: white;
-    font-size: 18px;
-    border-bottom: 5px solid #FF6200;
-  }
+
   
-  #contact {
-    text-align: center;
-    justify-content: space-between;
-    text-decoration: underline;
-    color: black;
-  }
-  
+
  
 
 
